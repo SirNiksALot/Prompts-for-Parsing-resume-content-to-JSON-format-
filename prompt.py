@@ -1,7 +1,5 @@
 
-promtpt="""You are given the following resume content. Parse the information and convert it into a JSON format with the following structure: 
-
-```json
+prompt="""You are given the following resume content. Parse the information and convert it into a JSON file with the following structure: 
 {
   "name": "John Doe",
   "contact_information": {
